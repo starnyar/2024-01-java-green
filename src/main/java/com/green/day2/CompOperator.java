@@ -13,5 +13,17 @@ public class CompOperator {
         System.out.println("r1 = 10 > 9 || " + r1);
         r1 = 10 < 9;
         System.out.println("r1 = 10 < 9 || " + r1);
+        r1 = 10 <= 9;
+        System.out.println("r1 = 10 <= 9 || " + r1);
+        r1 = 10 <= 10;
+        System.out.println("r1 = 10 <= 10 || " + r1);
+        r1 = 10 >= 9;
+        System.out.println("r1 = 10 >= 9 || " + r1);
+        r1 = 10 >= 10;
+        System.out.println("r1 = 10 >= 10 || " + r1);
+        r1 = 10 == 10;
+        System.out.println("r1 = 10 == 10 || " + r1);
+        r1 = 10 != 10;
+        System.out.println("r1 = 10 != 10 || " + r1);
     }
 }
