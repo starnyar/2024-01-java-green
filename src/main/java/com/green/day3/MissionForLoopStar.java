@@ -13,25 +13,6 @@ public class MissionForLoopStar {
             System.out.print("*");
         }
 
-        /*for(int i=9;i>0;i-=2) {
-            System.out.print(i + " ");
-            for (int k=0;k<(9-i);k+=2){
-                System.out.print(" ");
-            }
-                for (int j=0;j<i;j++) {
-                    System.out.print("*");
-                }
-            System.out.println();
-        }
-        for(int i=3;i<10;i+=2) {
-            System.out.print(i + " ");
-            for (int k=0;k<(9-i);k+=2){
-                System.out.print(" ");
-            }
-            for (int j=0;j<i;j++) {
-                System.out.print("*");
-            }
-            System.out.println();
-        }*/
+
     }
 }
