@@ -1,8 +1,6 @@
 package com.green.day13.ch6;
 
 public class CardTest {
-
-
     public static void main(String[] args) {
         // 카드객체 52개 만들어야함
         // shape = 클로버, 하트, 다이아몬드, 스페이드 4개
@@ -31,7 +29,7 @@ public class CardTest {
     public static void printCard(Card[] param) {
         for (int i = 0; i < param.length; i++) {
             System.out.print(param[i].shape + param[i].number + "\t");
-            if (param[i].number == "K") System.out.println();
+            if (param[i].number.equals("K")) System.out.println();
         }
     }
 }
